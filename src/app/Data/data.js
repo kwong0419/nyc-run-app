@@ -14,7 +14,9 @@
 // Queens	Woodside-Sunnyside Runners	Active	https://www.meetup.com/Woodside-Sunnyside-Runners/?_cookie-check=_rB-Q70x-pvBinUq	Varies - see website	Sunday	Varies - see website	Varies - check website	Free, all levels
 // Queens	World's Fair Run Crew (WFRC)	Active	https://www.instagram.com/worldsfairruncrew/	Alumni, 135-18 Northern BLVD	Wednesday		6:45 PM	Free, all levels
 `
-const Team = 
+
+
+export const teams = 
 [{ 
   "team_id": "001",
   "name": "Team WEPA",
@@ -70,8 +72,18 @@ const Team =
   "membership": false,
   "Description": "",
 }]
+export const tags = [
+  {
+    "team_id": "001",
+    "days": "Thursday",
+  },
+  {
+    "team_id": "002",
+    "days": ["Monday","Wednesday","Thursday","Saturday"],
+  },
+]
 
-const event =
+export const event =
 [{
   "team_id": "001",
   "day": "Thursday",
